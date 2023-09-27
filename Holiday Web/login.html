@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login HolidayIn</title>
+    <link rel="stylesheet" href="login.css">
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,200&display=swap"
+        rel="stylesheet">
+
+    <!-- fontawesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div id="nav">
+        <h3>HolidayIn</h3>
+    </div>
+    <div id="account">
+        <div id="newaccount">
+            <!-- account details starts -->
+            <div id="acc_det">
+            <h3>create account</h3>
+                <label for="name">Enter a name: </label> <br>
+                <input type="text" placeholder="Enter a name" id="name" required> <br>
+                <div id="text_valid"> </div>
+                <label for="email" >Enter email: </label> <br>
+                <input type="email" placeholder="Enter a email" id="email" required> <br>
+                <div id="email_valid" ></div>
+                <label for="password" >Enter password: </label> <br>
+                <input type="password"  id="password"  placeholder="Enter a password" required> <span class="fa fa-eye-slash eye" id="eye"></span><br>
+                <div id="password_valid"></div>
+                <input type="checkbox"id="cbox"> I accept all the terms & conditions <br>
+                <input type="button" value="submit" id="sig_but">
+                <p>OR</p>
+                <a href="www.google.com" id="google" target="_blank">Google</a>
+                <a href="www.facebook.com" id="facebook" target="_blank">Facebook</a>
+            </div>
+            <!-- account details ends -->
+        </div>
+        <!-- login details starts -->
+        <div id="login">
+            <div id="log_det">
+                <h3>Login</h3>
+                <input type="text" placeholder="Enter a name" id="log_name">
+                <div id="lname_valid"></div>
+                <input type="password" placeholder="Enter a password" id="l_password">
+                <div id="pass_valid"></div>
+                <a href="#" id="log_but" target="_self">login</a>
+            </div>
+        </div>
+        <!-- login details ends -->
+    </div>
+<script src="login.js"></script>
+</body>
+
+</html>

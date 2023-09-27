@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root{
+    --color-1:#e0ebeb;
+    --box-shadow-1: rgb(115, 115, 115);
+    --color-2: #5dacbd;
+    --color-3: #a7bcb9;
+    --color-4: #24527a;
+    --google-: #ea4335;
+    --facebook-: #1877f2;
+}
+
+body{
+    background-color: var(--color-1);
+    /* overflow: hidden; */
+}
+
+#nav{
+    width:100%;
+    height: 60px;
+    padding: 14px 5%;
+    background-color:var(--color-1) ;
+    box-shadow: 2px 2px 5px 5px var(--box-shadow-1);
+    z-index: 1;
+    position: fixed;
+    top: 0;
+}
+
+#nav h3{
+    color: var(--color-4);
+    font-weight: 400;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+#nav h3 i{
+    margin: 0 12px;
+    font-size: 20px;
+}
+
+#account{
+    height: 100vh;
+    width: 100%;
+    background-color: var(--color-1);
+    display: flex;
+    flex-direction: row;
+    padding: 0 10%;
+}
+
+/* new account starts */
+#newaccount{
+    height: 100vh;
+    width: 50%;
+    position: relative;
+    border-right: 1px solid black;
+}
+
+#newaccount h3{
+    font-size: 26px;
+    font-weight: 500;
+    color: var(--color-4);
+    margin: 20px 0;
+}
+
+#newaccount #acc_det{
+    position: absolute;
+    margin: 18% 13%;
+}
+#newaccount #acc_det label{
+    margin: 12px 0;
+}
+
+#newaccount #acc_det input{
+    padding: 2px 8px;
+    width: 300px;
+    margin: 12px 0;
+    height: 35px;
+    outline: none;
+    border: 1px solid var(--color-3);
+    border-radius: 4px;
+    font-size: 15px;
+    transition: 0.7s;
+}
+
+#newaccount #acc_det input:focus{
+    border: 1px solid var(--color-2);
+    color: var(--color-2);
+}
+
+#newaccount #acc_det #eye{
+    position: absolute;
+    margin-left: -30px;
+    margin-top: 22px;
+}
+
+#newaccount #acc_det #cbox{
+    width: 12px;
+    height: 12px;
+}
+
+#newaccount #acc_det #sig_but{
+    width: 120px;
+    height: 35px;
+    color: var(--color-1);
+    background-color: var(--color-4);
+    cursor: pointer;
+    margin: 12px 0 12px 0;
+}
+
+#newaccount #acc_det #google{
+    display: inline-block;
+    text-align: center;
+    line-height: 2.3;
+    text-decoration: none;
+    color: var(--color-1);
+    width: 120px;
+    height: 35px;
+    background-color: var(--google-);
+    margin: 12px 4px;
+}
+
+#newaccount #acc_det #facebook{
+    display: inline-block;
+    text-align: center;
+    line-height: 2.3;
+    text-decoration: none;
+    color: var(--color-1);
+    width: 120px;
+    height: 35px;
+    background-color: var(--facebook-);
+}
+/* newaccount ends */
+
+/* login starts */
+#login{
+    height: 100vh;
+    width: 50%;
+    position: relative;
+}
+
+/* login details starts */
+#login #log_det{
+    width: 50%;
+    height: 100vh;
+    position: absolute;
+    margin: 18% 30%;
+}
+
+ #log_det h3{
+    text-align: center;
+    margin: 20px 0;
+    font-weight: 500;
+    font-size: 26px;
+    color: var(--color-4);
+}
+
+#log_det input{
+   height: 35px;
+   width: 300px;
+   padding: 2px 8px;
+   /* display: block; */
+   margin: 12px auto;
+   border: 1px solid var(--color-3);
+   outline: none;
+   border-radius: 4px;
+   font-size: 15px;
+   transition: 0.7s;
+}
+
+#log_det input:focus{
+    border: 1px solid var(--color-2);
+    color: var(--color-2);
+}
+
+
+
+#log_det #log_but{
+    width: 120px;
+    height: 35px;
+    color: var(--color-1);
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    line-height: 2.3;
+    background-color: var(--color-4);
+    cursor: pointer;
+    margin: 20px auto;
+    border-radius: 6px;
+}
+
+/* login details ends */
+/* login ends */
+
+/* validate css starts */
+.text_valid
+{
+  font-size: 12px;
+  color: red;
+  margin: 2px 0;
+}
+
+/* validate css ends */

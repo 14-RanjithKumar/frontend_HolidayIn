@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>coffeeTown</title>
+    <link rel="stylesheet" href="coffee_town.css">
+    <!-- animation -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div id="wrapper">
+        <div id="navigation">
+            <h3>Coffee Town</h3>
+            <ul>
+                <li><a href="#breakfast">Breakfast</a></li>
+                <li><a href="#lunch">Lunch</a></li>
+                <li><a href="#snacks">Snacks</a></li>
+                <li><a href="#dinners">Dinner</a></li>
+            </ul>
+        </div>
+
+        <div id="greeting">
+            <h3 class="animate__animated animate__bounce animate__infinite 	infinite">Welcome <span id="username"></span> &#127848;</h3>
+            <p id="time"></p>
+            <p id="typeFood"></p>
+            <p>We are glad to provide our service to our customers.
+                In brown wood <br> we have the breakfast, lunch, snacks and dinners with a good taste.</p>
+            <button>Enjoy food</button>
+        </div>
+    </div>
+
+    <!-- breakfast starts -->
+    <div id="breakfast"  class="breakfast">
+        <h3>breakfast</h3>
+    <div id="breakfast_items">
+        <div class="col">
+            <img src="https://cdn.pixabay.com/photo/2017/06/16/11/38/breakfast-2408818_1280.jpg" alt="">
+            <div id="name_board">
+                <p>Idli</p>
+                <p>Rs 10.00</p>
+            </div>
+           <p id="star_icons"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i></p>
+            <div id="order">
+                <a href="#" id="order_but">order now</a>
+            </div>
+        </div>
+        <div class="col">
+            <img src="https://cdn.pixabay.com/photo/2022/01/27/07/34/dosa-6971361_640.jpg" alt="">
+            <div id="name_board">
+                <p>Dosa</p>
+                <p>Rs 15.00</p>
+            </div>
+           <p id="star_icons"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i></p>
+            <div id="order">
+                <a href="#" id="order_but">order now</a>
+            </div>
+        </div>
+        <div class="col">
+            <img src="https://media.istockphoto.com/id/853400532/photo/from-pakwan.jpg?s=612x612&w=0&k=20&c=vISzvAV1vcbKanNXRcIpFVq2FWHdkM5mNF8h3trSvk0=" alt="">
+            <div id="name_board">
+                <p>Poories</p>
+                <p>Rs 30.00</p>
+            </div>
+           <p id="star_icons"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i></p>
+            <div id="order">
+                <a href="#" id="order_but">order now</a>
+            </div>
+        </div>
+        <div class="col">
+            <img src="https://media.istockphoto.com/id/1355696309/photo/perfectly-round-paratha-indian-flatbread-made-of-wheat-flour-topped-with-sesame-seeds-and.jpg?s=612x612&w=0&k=20&c=2hPdLBD_7QK6MAmQFWwH7NOtudLnSUaJ-I3dUTaNSWI=" alt="">
+            <div id="name_board">
+                <p>chappati(Roti)</p>
+                <p>Rs 30.00</p>
+            </div>
+           <p id="star_icons"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i></p>
+            <div id="order">
+                <a href="#" id="order_but">order now</a>
+            </div>
+        </div>
+        
+    </div>
+
+    <div id="breakfast_items">
+        <div class="col">
+            <img src="https://media.istockphoto.com/id/1265235315/photo/ven-pongal-with-sambar-popular-indian-breakfast-food-tamil-nadu.jpg?s=612x612&w=0&k=20&c=8OQVCEqg4MGsyjHWhwwm0W0NOSX3bSXyyQTU04uFT8E=" alt="">
+            <div id="name_board">
+                <p>Venpongal</p>
+                <p>Rs 20.00</p>
+            </div>
+           <p id="star_icons"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i></p>
+            <div id="order">
+                <a href="#" id="order_but">order now</a>
+            </div>
+        </div>
+        <div class="col">
+            <img src="https://media.istockphoto.com/id/1169736410/photo/delicious-semiya-upma-served-in-a-brass-plate.jpg?s=612x612&w=0&k=20&c=xavNlSunXCcaC4QjwbLtuvUWLNDABmTH23_eN4wIQ0Y=" alt="">
+            <div id="name_board">
+                <p>Vermicelli upma</p>
+                <p>Rs 15.00</p>
+            </div>
+           <p id="star_icons"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i></p>
+        <div id="order">
+            <a href="#" id="order_but">order now</a>
+        </div>
+        </div>
+        <div class="col">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGLO-dLG12bDJCzw-DeClW1NvdkZbEUuP1iA&usqp=CAU" alt="">
+            <div id="name_board">
+                <p>Kuli Paniyaram</p>
+                <p>Rs 20.00</p>
+            </div>
+           <p id="star_icons"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i></p>
+            <div id="order">
+                <a href="#" id="order_but">order now</a>
+            </div>
+        </div>
+        <div class="col">
+            <img src="https://cdn.pixabay.com/photo/2021/06/02/01/35/indiappa-6303118_640.jpg" alt="">
+            <div id="name_board">
+                <p>Idiyaapam</p>
+                <p>Rs 30.00</p>
+            </div>
+           <p id="star_icons"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i></p>
+            <div id="order">
+                <a href="#" id="order_but">order now</a>
+            </div>
+        </div>
+        
+    </div>
+    
+    </div>
+    <!-- breakfast ends -->
+
+    <!-- lunch starts -->
+    <div id="lunch" class="breakfast">
+        <h3>Lunch</h3>
+    <div id="breakfast_items">
+        <div class="col">
+            <img src="https://media.gettyimages.com/id/615462612/photo/bisi-bele-bhath-dish.jpg?s=612x612&w=0&k=20&c=BaY8wqx8wyh8cYxQJx2TE5emLGGGCwSsOW8xUAghczI=" alt="">
+            <div id="name_board">
+                <p>Sambar Rice</p>
+                <p>Rs 30.00</p>
+            </div>
+           <p id="star_icons"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i></p>
+            <div id="order">
+                <a href="#" id="order_but">order now</a>
+            </div>
+        </div>
+        <div class="col">
+            <img src="https://media.gettyimages.com/id/874711120/photo/curd-rice-2.jpg?s=612x612&w=0&k=20&c=0ehKUmsf5ViST0iCXBdfuRcZUXOHQ0UCebC1wYtTgyg=" alt="">
+            <div id="name_board">
+                <p>Curd Rice</p>
+                <p>Rs 15.00</p>
+            </div>
+           <p id="star_icons"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i></p>
+            <div id="order">
+                <a href="#" id="order_but">order now</a>
+            </div>
+        </div>
+        <div class="col">
+            <img src="https://media.gettyimages.com/id/157646162/photo/vegetarian-fried-rice-with-vegetables-healthy.jpg?s=612x612&w=0&k=20&c=1p6fTK0uj9fV1hxyaMOm1mOlrfMl67uT0AiyqTiV3ug=" alt="">
+            <div id="name_board">
+                <p>Veg Rice</p>
+                <p>Rs 40.00</p>
+            </div>
+           <p id="star_icons"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i></p>
+            <div id="order">
+                <a href="#" id="order_but">order now</a>
+            </div>
+        </div>
+        <div class="col">
+            <img src="https://media.gettyimages.com/id/639206674/photo/rice-pulav.jpg?s=612x612&w=0&k=20&c=TXaXFkd2lS34n_pCIxCk5SKkvq-seuZculKSaaQSL0E=" alt="">
+            <div id="name_board">
+                <p>Veg Pullav</p>
+                <p>Rs 30.00</p>
+            </div>
+           <p id="star_icons"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i></p>
+            <div id="order">
+                <a href="#" id="order_but">order now</a>
+            </div>
+        </div>
+        
+    </div>
+
+    <div id="breakfast_items">
+        <div class="col">
+            <img src="https://media.gettyimages.com/id/1408094612/photo/high-angle-view-of-food-in-bowl-on-white-background-cuttack-odisha-india.jpg?s=612x612&w=0&k=20&c=NBH6hNI0199AqYBC97cFR-ffJvSaB7DBDuKvwo87y3g=" alt="">
+            <div id="name_board">
+                <p>Chicken Briyani</p>
+                <p>Rs 120.00</p>
+            </div>
+           <p id="star_icons"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i></p>
+            <div id="order">
+                <a href="#" id="order_but">order now</a>
+            </div>
+        </div>
+        <div class="col">
+            <img src="https://media.gettyimages.com/id/512245534/photo/special-lucknowi-bengali-dish-named-calcutta-nawabi-mutton-biryani-prepared-by-manzilat-fatima.jpg?s=612x612&w=0&k=20&c=m28ev4rMEPUZ9NBeWvSrqN0EoUX_CxKIr9iwmW47Xew=" alt="">
+            <div id="name_board">
+                <p>Mutton Briyani</p>
+                <p>Rs 150.00</p>
+            </div>
+           <p id="star_icons"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i></p>
+        <div id="order">
+            <a href="#" id="order_but">order now</a>
+        </div>
+        </div>
+        <div class="col">
+            <img src="https://media.gettyimages.com/id/1071365032/photo/grilled-sea-bream-with-vegetables.jpg?s=612x612&w=0&k=20&c=8CmitLNXwOWkqfyDVZw0wdg1cEnRVAxq1eKeaYIvNZE=" alt="">
+            <div id="name_board">
+                <p>Fish </p>
+                <p>Rs 80.00</p>
+            </div>
+           <p id="star_icons"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i></p>
+            <div id="order">
+                <a href="#" id="order_but">order now</a>
+            </div>
+        </div>
+        <div class="col">
+            <img src="https://media.gettyimages.com/id/1271475888/photo/high-angle-view-of-steamed-egg-crab-with-spicy-sauce-thailand-seafood.jpg?s=612x612&w=0&k=20&c=F_DjFctUnfIcQR5wk4KsEA0Y4kW-ewx5STacvFptRQk=" alt="">
+            <div id="name_board">
+                <p>Crab</p>
+                <p>Rs 90.00</p>
+            </div>
+           <p id="star_icons"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i></p>
+            <div id="order">
+                <a href="#" id="order_but">order now</a>
+            </div>
+        </div>
+        
+    </div>
+    
+    </div>
+    <!-- luch ends -->
+
+    <!-- chef coloumn starts -->
+    <div id="chefs" >
+        <h3>Our Chef's</h3>
+    <div class="chef_col">
+        <div class="chef_row">
+            <img src="https://images.unsplash.com/photo-1607631568010-a87245c0daf8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fGNoZWZ8ZW58MHwxfDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="chef1">
+            <h4>Mr.John</h4>
+            <p>5 years of experience</p>
+
+        </div>
+        <div class="chef_row">
+            <img src="https://images.unsplash.com/photo-1581299894007-aaa50297cf16?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8Y2hlZnxlbnwwfDF8MHx8&auto=format&fit=crop&w=500&q=60" alt="chef2">
+            <h4>Mr.Morgan</h4>
+            <p>5 years of experience</p>
+        </div>
+        <div class="chef_row">
+            <img src="https://images.unsplash.com/photo-1541614101331-1a5a3a194e92?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fGNoZWZ8ZW58MHwxfDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="chef3">
+            <h4>Mr.Albert</h4>
+            <p>5 years of experience</p>
+        </div>
+    </div>
+    </div>
+    <!-- chef coloumn ends -->
+
+    <!-- banner starts -->
+    <div id="banner">
+        <h3>Get our recent dish updates</h3> 
+        <div class="banner-row">
+        <input type="email" name="email" id="subscribe" placeholder="Enter a email">
+        <button>subscribe</button>
+        </div>
+    </div>
+    <!-- banner ends -->
+
+    <!-- snacks starts -->
+    <div id="snacks"  class="breakfast">
+        <h3>Snacks</h3>
+    <div id="breakfast_items">
+        <div class="col">
+            <img src="https://media.gettyimages.com/id/1344231500/photo/homemade-french-fries.jpg?s=612x612&w=0&k=20&c=0_cxjv-SITZVnvuYU1cm3wfG8zo1YHmQ2267zORhCW8=" alt="snack 1">
+            <div id="name_board">
+                <p>French Frice</p>
+                <p>Rs 30.00</p>
+            </div>
+           <p id="star_icons"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i></p>
+            <div id="order">
+                <a href="#" id="order_but">order now</a>
+            </div>
+        </div>
+        <div class="col">
+            <img src="https://media.gettyimages.com/id/583411715/photo/bowl-of-cereal-and-fruits.jpg?s=612x612&w=0&k=20&c=X7kWTXdm-GoS2E7nXfORrNowuqDojJNkI39cNC6M0xM=" alt="">
+            <div id="name_board">
+                <p>Chocos</p>
+                <p>Rs 15.00</p>
+            </div>
+           <p id="star_icons"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i></p>
+            <div id="order">
+                <a href="#" id="order_but">order now</a>
+            </div>
+        </div>
+        <div class="col">
+            <img src="https://media.gettyimages.com/id/520326646/photo/beer-battered-fish-bites-with-tarter-sauce.jpg?s=612x612&w=0&k=20&c=kD7gwcMIQB987r4ayL2GyT_QzR7vECTU47XWgxoq6hM=" alt="">
+            <div id="name_board">
+                <p>Nuggets</p>
+                <p>Rs 40.00</p>
+            </div>
+           <p id="star_icons"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i></p>
+            <div id="order">
+                <a href="#" id="order_but">order now</a>
+            </div>
+        </div>
+        <div class="col">
+            <img src="https://media.istockphoto.com/id/1192128502/photo/baekd-herb-potato-skewers-with-curd-and-bacon.jpg?s=612x612&w=0&k=20&c=z5XzU8CfOrZex-kO3pljrms73nFG9qAfxTx1FvboBH0=" alt="">
+            <div id="name_board">
+                <p>Spring Potato</p>
+                <p>Rs 30.00</p>
+            </div>
+           <p id="star_icons"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i></p>
+            <div id="order">
+                <a href="#" id="order_but">order now</a>
+            </div>
+        </div>
+        
+    </div>
+
+    <div id="breakfast_items">
+        <div class="col">
+            <img src="https://media.istockphoto.com/id/582308154/photo/four-colours-of-donuts.jpg?s=612x612&w=0&k=20&c=lY05MbGtrcyTCReV-ELSB8QtqvWqDElNYTNgc9mEiM0=" alt="">
+            <div id="name_board">
+                <p>Donuts</p>
+                <p>Rs 120.00</p>
+            </div>
+           <p id="star_icons"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i></p>
+            <div id="order">
+                <a href="#" id="order_but">order now</a>
+            </div>
+        </div>
+        <div class="col">
+            <img src="https://media.istockphoto.com/id/1089678946/photo/appetizer-chicken-wings-baked.jpg?s=612x612&w=0&k=20&c=cAUoo1obQOwSb5axY_vrewYDxpHPFIa4XKRVginQX9o=" alt="">
+            <div id="name_board">
+                <p>Chicken Wings</p>
+                <p>Rs 150.00</p>
+            </div>
+           <p id="star_icons"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i></p>
+        <div id="order">
+            <a href="#" id="order_but">order now</a>
+        </div>
+        </div>
+        <div class="col">
+            <img src="https://media.istockphoto.com/id/509920260/photo/gobi-manjurian-indian-food.jpg?s=612x612&w=0&k=20&c=KTbo3o1tGq9zslsB5G0iFDmJkfiWvJjX47ejdIn6O0s=" alt="">
+            <div id="name_board">
+                <p>Manchoori</p>
+                <p>Rs 80.00</p>
+            </div>
+           <p id="star_icons"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i></p>
+            <div id="order">
+                <a href="#" id="order_but">order now</a>
+            </div>
+        </div>
+        <div class="col">
+            <img src="https://media.istockphoto.com/id/1032725838/photo/skillet-mushrooms.jpg?s=612x612&w=0&k=20&c=4Py8LzOllPTyMS0pO97f85rAEX1rwTMMjuaVRGakyCk=" alt="">
+            <div id="name_board">
+                <p>Mushroom</p>
+                <p>Rs 90.00</p>
+            </div>
+           <p id="star_icons"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i></p>
+            <div id="order">
+                <a href="#" id="order_but">order now</a>
+            </div>
+        </div>
+        
+    </div>
+    
+    </div>
+    <!-- snacks ends -->
+
+    <!-- dinner starts -->
+    <div id="dinners"  class="breakfast">
+        <h3>Dinner</h3>
+    <div id="breakfast_items">
+        <div class="col">
+            <img src="https://media.istockphoto.com/id/1205482203/photo/kerala-parotta-popularly-known-as-paratha-or-porotta-is-a-delicacy-from-the-state-of-kerala.jpg?s=612x612&w=0&k=20&c=Yv6GQkzNErLM7NUA4q6S27FnFMT7yuC6RSCij5e2m0Y=" alt="snack 1">
+            <div id="name_board">
+                <p>Parrotta</p>
+                <p>Rs 30.00</p>
+            </div>
+           <p id="star_icons"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i></p>
+            <div id="order">
+                <a href="#" id="order_but">order now</a>
+            </div>
+        </div>
+        <div class="col">
+            <img src="https://media.istockphoto.com/id/1355696249/photo/perfectly-round-paratha-indian-flatbread-made-of-wheat-flour-topped-with-sesame-seeds-and.jpg?s=612x612&w=0&k=20&c=Z5DiG32An8avXx9zrF4DwpBfxCirNtfA9xU7VP2DQ_I=" alt="">
+            <div id="name_board">
+                <p>Chappathi</p>
+                <p>Rs 40.00</p>
+            </div>
+           <p id="star_icons"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i></p>
+            <div id="order">
+                <a href="#" id="order_but">order now</a>
+            </div>
+        </div>
+        <div class="col">
+            <img src="https://media.istockphoto.com/id/1305452391/photo/dosa-dish.jpg?s=612x612&w=0&k=20&c=-wmhzShejx2hJv6STGqJKQCd3ixTv-WJKFa_Op-EUcs=" alt="">
+            <div id="name_board">
+                <p>Dosa</p>
+                <p>Rs 40.00</p>
+            </div>
+           <p id="star_icons"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i></p>
+            <div id="order">
+                <a href="#" id="order_but">order now</a>
+            </div>
+        </div>
+        <div class="col">
+            <img src="https://media.istockphoto.com/id/1215312647/photo/pasta-fettuccine-with-beef-ragout-sauce-in-black-bowl-grey-background-close-up-top-view.jpg?s=612x612&w=0&k=20&c=QPYBO4bXuteznLXHeTMKxEr0T7iTLnzoQl19q4JnAv8=" alt="">
+            <div id="name_board">
+                <p>Noodles</p>
+                <p>Rs 130.00</p>
+            </div>
+           <p id="star_icons"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i></p>
+            <div id="order">
+                <a href="#" id="order_but">order now</a>
+            </div>
+        </div>
+        
+    </div>
+
+    <div id="breakfast_items">
+        <div class="col">
+            <img src="https://media.istockphoto.com/id/502708516/photo/italian-pasta-alla-norma-close-up-and-ingredients-horizontal-to.jpg?s=612x612&w=0&k=20&c=9c7HsKEWYRn1co5f6Jct7Z1nWTP1YVlqj_stRUvXLqM=" alt="">
+            <div id="name_board">
+                <p>Spring Pasta</p>
+                <p>Rs 120.00</p>
+            </div>
+           <p id="star_icons"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i></p>
+            <div id="order">
+                <a href="#" id="order_but">order now</a>
+            </div>
+        </div>
+        <div class="col">
+            <img src="https://media.istockphoto.com/id/476390685/photo/indian-biriyani.jpg?s=612x612&w=0&k=20&c=f9XV00_S_hwOsJPBawpb7niop7DzDgIocefIx3jt6XU=" alt="">
+            <div id="name_board">
+                <p>Fried Rice</p>
+                <p>Rs 150.00</p>
+            </div>
+           <p id="star_icons"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i></p>
+        <div id="order">
+            <a href="#" id="order_but">order now</a>
+        </div>
+        </div>
+        <div class="col">
+            <img src="https://media.istockphoto.com/id/665702302/photo/kerala-breakfast-idiyappam-or-appam.jpg?s=612x612&w=0&k=20&c=D2xlb2WLHX57Kwwp7N0FTRyTy9XpinWMc7eGqs0vEWU=" alt="">
+            <div id="name_board">
+                <p>Idiyappam</p>
+                <p>Rs 80.00</p>
+            </div>
+           <p id="star_icons"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i></p>
+            <div id="order">
+                <a href="#" id="order_but">order now</a>
+            </div>
+        </div>
+        <div class="col">
+            <img src="https://media.istockphoto.com/id/1251622310/photo/a-night-bbq-party-gathering-with-food-preparation-brushing-and-applying-oil-and-honey-on.jpg?s=612x612&w=0&k=20&c=fgfRkaFrw-BHZNExwwAyeNGowrHo9uzI6ciVfFCZx3Q=" alt="">
+            <div id="name_board">
+                <p>Grill Chicken</p>
+                <p>Rs 90.00</p>
+            </div>
+           <p id="star_icons"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i></p>
+            <div id="order">
+                <a href="#" id="order_but">order now</a>
+            </div>
+        </div>
+        
+    </div>
+    
+    </div>
+    <!-- dinner ends -->
+
+    <!-- Get details starts -->
+    <div id="details">
+        <h3>Get Details</h3>
+        <div class="details_row">
+            <div class="details_col">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31314.211438696308!2d76.91442841083983!3d11.1671569!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba8f137bd9d3bbf%3A0x221120359bbeb7f3!2sThe%20Indian%20Foods%20Restaurant!5e0!3m2!1sen!2sin!4v1684252857857!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="details_col">
+                <h5>For Queries</h5>
+                <label for="name">Enter a name:</label> <br>
+                <input type="text" placeholder="Enter a name"> <br>
+                <label for="email">Enter a email:</label><br>
+                <input type="email" placeholder="Enter a email"><br>
+                <label for="message">Message:</label><br>
+                <textarea name="textarea" id="textarea" cols="43" rows="8"></textarea> <br>
+                <a href="#">submit</a>
+            </div>
+        </div>
+    </div>
+    <!-- Get details ends -->
+
+    <div id="copy">
+        <p>All &copy; copyrights 2022 coffeeTown</p>
+    </div>
+
+    <script src="name.js"></script>
+</body>
+
+</html>
